@@ -25,10 +25,10 @@ module.exports = {
         'max-lines': ['warn', 200],
         'no-console': 'warn',
         'no-trailing-spaces': 'error',
-        'no-unused-vars': ['error', {
-            'argsIgnorePattern': '^(props)$',
-            'varsIgnorePattern': 'React'
-        }],
+        // 'no-unused-vars': ['error', {
+        //     'argsIgnorePattern': '^(props)$',
+        //     'varsIgnorePattern': 'React'
+        // }],
         'no-var': 'error',
         'react/boolean-prop-naming': 'error',
         "react-hooks/rules-of-hooks": "error",
