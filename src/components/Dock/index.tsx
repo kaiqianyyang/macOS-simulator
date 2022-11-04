@@ -20,7 +20,7 @@ import TerminalIcon from '../../assets/images/Terminal.png';
 // import { Calculator } from '../Calculator';
 // import Drawing from '../Drawing';
 // import { Launchpad } from '../Launchpad';
-// import Preferences from '../Preferences';
+import Preferences from '../Preferences';
 import { AppState, DockConfig, DockPosition } from './types';
 /// <reference path="image.d.ts" />
 
@@ -298,13 +298,13 @@ const Dock: React.FC = () => {
 
     return (
         <React.Fragment>
-            {/* <Preferences
+            <Preferences
                 dockConfig={dockConfig}
                 setDockConfig={setDockConfig}
                 preferencesState={preferencesState}
                 setPreferencesState={setPreferencesState}
             />
-            <Calculator
+            {/* <Calculator
                 calculatorState={calculatorState}
                 setCalculatorState={setCalculatorState}
             />
